@@ -54,4 +54,5 @@ and redux persist. Latest version of react-navigation (v2.0.1) included with red
 
 **Never** commit directly on master, instead use branches and pull requests.
 
-**By** Victor
+Initial Realease : **0.55.4**
+Maintained By: **Victor**
