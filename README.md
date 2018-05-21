@@ -31,31 +31,27 @@ and redux persist. Latest version of react-navigation (v2.0.1) included with red
 3. Remove `.git` folder,  `rm -rf .git`
 4. Open `package.json` and change the `name` property with your project name
 5. Run `yarn` or `npm install` to install dependencies
+6. Remove android contents `rm -rf /android/*`
+7. Remove ios contents `rm -rf /ios/*`
 6. Run `react-native upgrade` to update the project name to `android` and `ios` build
     * Type `y` to each prompt
   
-* Now remove old/stale android& ios  folders 
+7. Run `react-native link`
+8. Open `index.js` and replace `'ReactNativeBoilerPlate'` by your project name
 
-8. Run `rm -rf android/app/src/main/java/com/reactnativeboilerplate`
-9. Run `rm -rf ios/ReactNativeBoilerPlate`
-9. Run `rm -rf ios/ReactNativeBoilerPlateTests`
-9. Run `rm -rf ios/ReactNativeBoilerPlate-tvOS`
-9. Run `rm -rf ios/ReactNativeBoilerPlate-tvOSTests`
-
-10. Run `react-native link`
-11. Open `index.js` and replace `'ReactNativeBoilerPlate'` by your project name
-
-12. Start the packager with `npm start`
-13. Connect a mobile device to your development machine
-14. Run the test application:
+9. Start the packager with `npm start`
+10. Connect a mobile device to your development machine
+11. Run the test application:
   * On Android:
     * Run `react-native run-android`
   * On iOS:
     * Open `ios/YourReacTproject.xcodeproj` in Xcode
     * Hit `Run` after selecting the desired device
-15. Enjoy!!!
+12. Enjoy!!!
 
 
 ## Contributing
 
 **Never** commit directly on master, instead use branches and pull requests.
+
+**By** Victor
